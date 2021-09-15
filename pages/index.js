@@ -41,26 +41,17 @@ export default function Home() {
         </blockquote>
 
         <div className={styles.grid}>
-          <Link href={{
-            pathname: '/view',
-            query: { image: 'email-1' },
-          }}>
+          <Link href={"/view"}>
             <a className={styles.card}>
               <Image height="125px" width="175px" src="/email-1.png" alt="Email-1 Image" />
             </a>
           </Link>
-          <Link href={{
-            pathname: '/view',
-            query: { image: 'email-2' },
-          }}>
+          <Link href={"/view"}>
             <a className={styles.card}>
               <Image height="75px" width="250px" src="/email-2.png" alt="Email-2 Image" />
             </a>
           </Link>
-          <Link href={{
-            pathname: '/view',
-            query: { image: 'email-3' },
-          }}>
+          <Link href={"/view"}>
             <a className={styles.card}>
               <Image height="75px" width="275px" src="/email-3.png" alt="Email-3 Image" />
             </a>
