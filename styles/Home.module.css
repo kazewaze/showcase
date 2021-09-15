@@ -1,0 +1,182 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title {
+  margin: 30px 0 0 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.sectionHeading {
+  margin-top: 275px;
+  padding: 14px;
+  text-align: center;
+  line-height: 1.15;
+}
+
+.sectionHeading h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.sectionHeading p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  color: inherit;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 45%;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  border-color: #33eea3;
+}
+
+.merges {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  border: none;
+  width: 45%;
+}
+
+.merges img {
+  border-radius: 50%;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.nav {
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #111111;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 55px;
+  font-family: 'Lilita One', sans-serif, serif;
+  font-weight: 700;
+  letter-spacing: .7px;
+}
+
+.heading:hover {
+  color: #33eea3;
+  cursor: default;
+}
+
+@media (max-width: 650px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+.downArrowContainer {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.downArrow {
+  position: absolute;
+  animation: MoveUpDown 1.3s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 3.5px;
+  }
+}
+
+.author {
+  color:#33eea3;
+}
+
+.newspaperLink {
+  margin: 3px;
+  padding: 3px;
+  border-radius: 4px;
+  color: #33eea3;
+  background-color: #111111;
+}

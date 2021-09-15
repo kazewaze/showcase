@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #111111;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+blockquote {
+  width: 60%;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Lilita One', sans-serif, serif;
+  letter-spacing: .7px;
+  color: #ffffff;
+  background-color: #111111;
+}
